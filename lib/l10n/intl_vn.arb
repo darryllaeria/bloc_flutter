@@ -2,5 +2,6 @@
   "@@locale": "vn",
   "appBarTitle": "BLoC Flutter",
   "locationAppBar": "Bạn muốn ăn ở đâu?",
-  "locationHint": "Nhập địa điểm"
+  "locationHint": "Nhập địa điểm",
+  "locationNoData": "No data"
 }

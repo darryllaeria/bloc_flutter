@@ -2,5 +2,6 @@
   "@@locale": "en",
   "appBarTitle": "BLoC Flutter",
   "locationAppBar": "Where do you want to eat?",
-  "locationHint": "Enter a location"
+  "locationHint": "Enter a location",
+  "locationNoData": "No data"
 }

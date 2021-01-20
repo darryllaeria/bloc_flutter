@@ -8,10 +8,9 @@ class MainView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<Location>(
-      stream: BlocProvider.of<LocationBloc>(context).locationStream,
-      builder: (context, snapshot) {
-        return LocationView();
-      }
-    );
+        stream: BlocProvider.of<LocationBloc>(context).locationStream,
+        builder: (context, snapshot) {
+          return (snapshot.data == null) ? LocationView() : Container();
+        });
   }
 }

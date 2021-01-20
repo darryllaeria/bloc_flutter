@@ -23,6 +23,7 @@ class MessageLookup extends MessageLookupByLibrary {
   static _notInlinedMessages(_) => <String, Function> {
     "appBarTitle" : MessageLookupByLibrary.simpleMessage("BLoC Flutter"),
     "locationAppBar" : MessageLookupByLibrary.simpleMessage("Bạn muốn ăn ở đâu?"),
-    "locationHint" : MessageLookupByLibrary.simpleMessage("Nhập địa điểm")
+    "locationHint" : MessageLookupByLibrary.simpleMessage("Nhập địa điểm"),
+    "locationNoData" : MessageLookupByLibrary.simpleMessage("No data")
   };
 }
