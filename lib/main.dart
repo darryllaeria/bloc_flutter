@@ -1,3 +1,4 @@
+import 'package:bloc_flutter/ui/main_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'generated/l10n.dart';
@@ -20,7 +21,11 @@ class _MyAppState extends State<MyApp> {
           GlobalWidgetsLocalizations.delegate
         ],
         supportedLocales: S.delegate.supportedLocales,
-        home: MyHomePage());
+        theme: ThemeData(
+          primarySwatch: Colors.red,
+        ),
+        home: MainView());
+        // home: MyHomePage());
   }
 }
 

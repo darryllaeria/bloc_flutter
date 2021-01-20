@@ -13,12 +13,17 @@ class LocationView extends StatelessWidget {
             padding: const EdgeInsets.all(10.0),
             child: TextField(
               decoration: InputDecoration(
-                border: OutlineInputBorder(),
-                hintText: S.of(context).locationHint),
-              ),
+                  border: OutlineInputBorder(),
+                  hintText: S.of(context).locationHint),
             ),
-        ],
+          ),
+          Expanded(child: _buildResults()),
+          ],
       ),
     );
+  }
+
+  Widget _buildResults() {
+    return Center(child: Text(S.current.locationHint));
   }
 }
