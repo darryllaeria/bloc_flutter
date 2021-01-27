@@ -15,6 +15,6 @@ class LocationQueryBloc implements Bloc {
 
   @override
   void dispose() {
-      _queryController.close();
+    _queryController.close();
   }
 }
