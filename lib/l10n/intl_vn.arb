@@ -3,5 +3,13 @@
   "appBarTitle": "BLoC Flutter",
   "locationAppBar": "Bạn muốn ăn ở đâu?",
   "locationHint": "Nhập địa điểm",
-  "locationNoData": "No data"
+  "locationNoData": "No data",
+  "restaurantEatHint": "What do you want to eat?",
+  "restaurantEnterName": "Enter a restaurant name or cuisine type",
+  "noResults": "No results",
+  "restaurantPrice": "Price: ",
+  "restaurantRating": "Rating: ",
+  "restaurantFavourite": "Favorite",
+  "restaurantFavourites": "Favourites",
+  "restaurantNoFavourite": "No Favourites"
 }

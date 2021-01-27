@@ -74,6 +74,86 @@ class S {
       args: [],
     );
   }
+
+  /// `What do you want to eat?`
+  String get restaurantEatHint {
+    return Intl.message(
+      'What do you want to eat?',
+      name: 'restaurantEatHint',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter a restaurant name or cuisine type`
+  String get restaurantEnterName {
+    return Intl.message(
+      'Enter a restaurant name or cuisine type',
+      name: 'restaurantEnterName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No results`
+  String get noResults {
+    return Intl.message(
+      'No results',
+      name: 'noResults',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Price: `
+  String get restaurantPrice {
+    return Intl.message(
+      'Price: ',
+      name: 'restaurantPrice',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Rating: `
+  String get restaurantRating {
+    return Intl.message(
+      'Rating: ',
+      name: 'restaurantRating',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Favorite`
+  String get restaurantFavourite {
+    return Intl.message(
+      'Favorite',
+      name: 'restaurantFavourite',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Favourites`
+  String get restaurantFavourites {
+    return Intl.message(
+      'Favourites',
+      name: 'restaurantFavourites',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No Favourites`
+  String get restaurantNoFavourite {
+    return Intl.message(
+      'No Favourites',
+      name: 'restaurantNoFavourite',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

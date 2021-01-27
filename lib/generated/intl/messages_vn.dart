@@ -24,6 +24,14 @@ class MessageLookup extends MessageLookupByLibrary {
     "appBarTitle" : MessageLookupByLibrary.simpleMessage("BLoC Flutter"),
     "locationAppBar" : MessageLookupByLibrary.simpleMessage("Bạn muốn ăn ở đâu?"),
     "locationHint" : MessageLookupByLibrary.simpleMessage("Nhập địa điểm"),
-    "locationNoData" : MessageLookupByLibrary.simpleMessage("No data")
+    "locationNoData" : MessageLookupByLibrary.simpleMessage("No data"),
+    "noResults" : MessageLookupByLibrary.simpleMessage("No results"),
+    "restaurantEatHint" : MessageLookupByLibrary.simpleMessage("What do you want to eat?"),
+    "restaurantEnterName" : MessageLookupByLibrary.simpleMessage("Enter a restaurant name or cuisine type"),
+    "restaurantFavourite" : MessageLookupByLibrary.simpleMessage("Favorite"),
+    "restaurantFavourites" : MessageLookupByLibrary.simpleMessage("Favourites"),
+    "restaurantNoFavourite" : MessageLookupByLibrary.simpleMessage("No Favourites"),
+    "restaurantPrice" : MessageLookupByLibrary.simpleMessage("Price: "),
+    "restaurantRating" : MessageLookupByLibrary.simpleMessage("Rating: ")
   };
 }
